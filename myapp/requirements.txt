@@ -1,0 +1,7 @@
+django-cors-headers
+djangorestframework
+postgres
+djangorestframework-simplejwt
+Pillow
+mailjet-rest
+drf_yasg
