@@ -1,13 +1,38 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Remove bullet points */
+* {
+  padding: 0;
+  margin: 10;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav__container ul {
+  list-style: none; /* Removes dot points */
+}
+
+/* Make items align in a row */
+.nav__container--bottom ul {
+  display: flex;
+  justify-content: flex-start; /* Aligns items from left to right */
+  align-items: center;
+  gap: 20px; /* Space between items */
+}
+
+/* Style for each list item */
+.nav__list {
+  font-size: 18px;
+}
+
+/* Style the links */
+.nav__link {
+  text-decoration: none; /* Remove underlines */
+  color: #333;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: color 0.3s ease;
+}
+
+/* Add hover effect */
+.nav__link:hover {
+  color: #007bff;
 }
