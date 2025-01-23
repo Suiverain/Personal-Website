@@ -8,12 +8,17 @@ export default function Nav() {
         <ul>
           <li className="nav__list">
             <Link to="/" className="nav__link">
-              Home page!
+              Home
             </Link>
           </li>
           <li className="nav__list">
             <Link to="/about" className="nav__link">
-              About page!
+              About
+            </Link>
+          </li>
+          <li className="nav__list">
+            <Link to="/mytable" className="nav__link">
+              Collection
             </Link>
           </li>
         </ul>

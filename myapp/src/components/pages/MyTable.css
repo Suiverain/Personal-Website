@@ -1,0 +1,25 @@
+.container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .table {
+    display: grid;
+    grid-template-columns: repeat(4, 150px); /* 4 columns per row */
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .card-slot {
+    width: 150px;
+    height: 200px;
+    border: 2px dashed #aaa; /* Dashed border to indicate empty slot */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #555;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  }
+  
